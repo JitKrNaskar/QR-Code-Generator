@@ -68,4 +68,11 @@ This project is licensed under the [MIT License](https://github.com/JitKrNaskar/
 - [Flaticon](https://www.flaticon.com/) for the social media icons.
 - [Cool Backgrounds](https://coolbackgrounds.io/) for the background image.
 
+
+## Contact
+
+For any inquiries or questions, please feel free to contact me:
+
+[![LinkedIn](https://img.icons8.com/nolan/64/linkedin.png)](https://www.linkedin.com/in/jitkumarnaskar/)
+[![GitHub](https://img.icons8.com/nolan/64/github.png)](https://github.com/JitKrNaskar)
 ---
