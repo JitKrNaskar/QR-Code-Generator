@@ -1,0 +1,138 @@
+:root {
+    --baseColor: #606468;
+    --htmlFontSize: 100%;
+    --bodyBackgroundColor: #2c3338;
+    --bodyColor: var(--baseColor);
+    --bodyFontFamily: "Open Sans";
+    --bodyFontFamilyFallback: sans-serif;
+    --bodyFontSize: 0.875rem;
+    --bodyFontWeight: 400;
+    --bodyLineHeight: 1.5;
+    --anchorColor: #eee;
+    --formGap: 0.875rem;
+    --loginBorderRadus: 0.25rem;
+    --loginColor: #eee;
+    --loginInputBackgroundColor: #3b4148;
+    --loginInputHoverBackgroundColor: #434a52;
+    --loginLabelBackgroundColor: #363b41;
+    --loginSubmitBackgroundColor: #ea4c88;
+    --loginSubmitColor: #eee;
+    --loginSubmitHoverBackgroundColor: #d44179;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: var(--htmlFontSize);
+}
+
+body {
+    background-image: url("https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: var(--bodyFontFamily), var(--bodyFontFamilyFallback);
+    font-size: var(--bodyFontSize);
+    font-weight: var(--bodyFontWeight);
+    line-height: var(--bodyLineHeight);
+    margin: 0;
+    min-block-size: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+a {
+    color: var(--anchorColor);
+    outline: 0;
+    text-decoration: none;
+}
+
+a:focus,
+a:hover {
+    text-decoration: underline;
+}
+
+input,
+textarea,
+select,
+option,
+input[type="submit"] {
+    background-image: none;
+    border: 0;
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    transition: background-color 0.3s;
+    inline-size: 100%;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+}
+
+textarea,
+option,
+select {
+    background-color: var(--loginInputBackgroundColor);
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    padding: 1.25rem;
+}
+
+textarea:focus,
+textarea:hover {
+    background-color: var(--loginInputHoverBackgroundColor);
+}
+
+input[type="submit"] {
+    background-color: #d75821;
+    color: var(--loginSubmitColor);
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 1.25rem 2rem;
+}
+
+input[type="submit"]:focus,
+input[type="submit"]:hover {
+    background-color: #d75821;
+}
+
+p {
+    margin-block: 1rem;
+    text-align: center;
+    font-weight: bold;
+    color: var(--anchorColor);
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons a {
+    color: var(--anchorColor);
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+}
