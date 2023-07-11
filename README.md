@@ -6,7 +6,7 @@
 
  A simple web-based QR code generator that allows you to generate QR codes with custom text and size.
  
-  <p>Generate your QR Code today! Visit my website <a href="https://jitkrnaskar.github.io/QR-Code-Generator/" target="_blank">here</a></p>
+  <p>Generate your QR Code today! Visit my website <a href="https://jitkrnaskar.github.io/QR-Code-Generator/">here</a></p>
 </div>
 
 ## Features
