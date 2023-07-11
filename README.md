@@ -43,11 +43,11 @@
 
 1. Clone the repository:
 
-  
+  ```console
    git clone https://github.com/JitKrNaskar/qr-code-generator.git
-   
+   ```
 
-2. Open the `index.html` file in your preferred web browser.
+2. Open the [index.html](https://github.com/JitKrNaskar/QR-Code-Generator/blob/main/index.html) file in your preferred web browser.
 
 ## Usage
 
