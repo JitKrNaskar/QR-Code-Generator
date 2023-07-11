@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![QR Code Generator](https://cdn-icons-png.flaticon.com/128/9048/9048683.png)
+[![QR Code Generator](https://cdn-icons-png.flaticon.com/128/9048/9048683.png)](https://jitkrnaskar.github.io/QR-Code-Generator/)
 
  A simple web-based QR code generator that allows you to generate QR codes with custom text and size.
  
